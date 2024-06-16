@@ -6,7 +6,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,25 +18,25 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               TeksUtama(
-                teks1: 'Shabrina Anggarda Paramita Tunismo',
-                teks2: 'NIM: STI202102479',
+                teks1: 'Fahrul Rozi Junaedin',
+                teks2: 'NIM: STI202102428',
               ),
               TeksUtama(
-                teks1: 'Faqih Dwi Alfan',
-                teks2: 'NIM: STI202102482',
+                teks1: 'Lintang Trio Saputra',
+                teks2: 'NIM: STI202102429',
               ),
               TeksUtama(
-                teks1: 'Rizma Sabillah',
-                teks2: 'NIM: STI202102491',
+                teks1: 'Ayu Tiarani',
+                teks2: 'NIM: STI202102430',
                 backgroundColor: Colors.green, // Mengatur latar belakang hijau
               ),
               TeksUtama(
-                teks1: 'Muhamad Abdi Hafidz',
-                teks2: 'NIM: STI202102499',
+                teks1: 'Ahmad Sarif',
+                teks2: 'NIM: STI202102432',
               ),
               TeksUtama(
-                teks1: 'Juwita Kristiani Hia',
-                teks2: 'NIM: STI202102506',
+                teks1: 'Tria Wahyu Apriyanti',
+                teks2: 'NIM: STI202102438',
               ),
             ],
           ),
